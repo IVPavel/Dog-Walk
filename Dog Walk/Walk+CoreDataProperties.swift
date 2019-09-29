@@ -19,5 +19,4 @@ extension Walk {
 
     @NSManaged public var date: NSDate?
     @NSManaged public var dog: Dog?
-
 }
