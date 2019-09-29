@@ -80,10 +80,10 @@
 			children = (
 				5CC4D2AB2321342B0015F033 /* AppDelegate.swift */,
 				5CC4D2AD2321342B0015F033 /* ViewController.swift */,
-				5CFFF0812321805D0026BA97 /* PopoverViewController */,
-				5CCCC548232259B7008BE31A /* AlertController */,
-				5CFFF0802321803D0026BA97 /* Delegate */,
-				5CFFF085232180930026BA97 /* Core Data */,
+				5CE747192340337300F0B4AF /* PopoverViewController */,
+				5CE7471A2340339100F0B4AF /* AlertController */,
+				5CE7471B234033B700F0B4AF /* Delegate */,
+				5CE7471C234033D700F0B4AF /* Core Data */,
 				5CC4D2AF2321342B0015F033 /* Main.storyboard */,
 				5CC4D2B22321342C0015F033 /* Assets.xcassets */,
 				5CC4D2B42321342C0015F033 /* LaunchScreen.storyboard */,
@@ -92,34 +92,34 @@
 			path = "Dog Walk";
 			sourceTree = "<group>";
 		};
-		5CCCC548232259B7008BE31A /* AlertController */ = {
+		5CE747192340337300F0B4AF /* PopoverViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CC4D2C1232145BF0015F033 /* PopoverViewController.swift */,
+				5CC4D2BF232140480015F033 /* CollectionViewCell.swift */,
+			);
+			path = PopoverViewController;
+			sourceTree = "<group>";
+		};
+		5CE7471A2340339100F0B4AF /* AlertController */ = {
 			isa = PBXGroup;
 			children = (
 				5CC4D2C723216BE00015F033 /* CustomAlertController.swift */,
 			);
-			name = AlertController;
+			path = AlertController;
 			sourceTree = "<group>";
 		};
-		5CFFF0802321803D0026BA97 /* Delegate */ = {
+		5CE7471B234033B700F0B4AF /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
 				5CFFF07C2321784D0026BA97 /* CustomAlertDelegate.swift */,
 				5CCCC55123227982008BE31A /* CurentPetDelegate.swift */,
 				5CCCC56B2323D07B008BE31A /* CellSubclassDelegate.swift */,
 			);
-			name = Delegate;
+			path = Delegate;
 			sourceTree = "<group>";
 		};
-		5CFFF0812321805D0026BA97 /* PopoverViewController */ = {
-			isa = PBXGroup;
-			children = (
-				5CC4D2C1232145BF0015F033 /* PopoverViewController.swift */,
-				5CC4D2BF232140480015F033 /* CollectionViewCell.swift */,
-			);
-			name = PopoverViewController;
-			sourceTree = "<group>";
-		};
-		5CFFF085232180930026BA97 /* Core Data */ = {
+		5CE7471C234033D700F0B4AF /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
 				5CCCC5632322E131008BE31A /* Walk+CoreDataClass.swift */,
@@ -129,7 +129,7 @@
 				5CFFF086232180DA0026BA97 /* CoreDataStack.swift */,
 				5CFFF0822321807F0026BA97 /* Dog Walk.xcdatamodeld */,
 			);
-			name = "Core Data";
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
